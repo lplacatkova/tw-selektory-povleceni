@@ -1,0 +1,53 @@
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(1, 100, 200);
+  }
+
+.block {
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .alert {
+    background-color: #FFEB3B; 
+  }
+
+  button.detail {
+    background-color: rgba(0, 0, 255, 0.5);
+    border: 2px solid rgba(0, 0, 255, 0.8); 
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+  }
+
+  button.detail:hover {
+    background-color: rgba(0, 0, 255, 0.7); 
+  }
+
+  .best-sellers {
+    background-color: #FFB6C1; 
+  }
+
+  .product-card {
+    background-color: #ADD8E6; 
+  }
+
+  .other-block {
+    background-color: #D3D3D3; /* Světle šedá */
+  }
+
+  .review {
+    border: 2px dashed #000000; /* Čárkovaný rámeček */
+    padding: 10px;
+    margin: 10px 0;
+  }
+
+  .product-card img {
+    height: 300px;
+    width: auto;
+    border-radius: 5px;
+    object-fit: cover; /* Zajistí, že obrázek nebude deformován a přizpůsobí se výšce */
+  }
